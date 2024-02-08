@@ -1,4 +1,4 @@
 # Pagination
 
-This is a small React application that fetches posts from JSONPlaceholder and paginates them.
+This is a React app that fetches posts from JSONPlaceholder and paginates them.
 

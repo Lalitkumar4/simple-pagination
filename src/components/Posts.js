@@ -1,5 +1,3 @@
-import "bootstrap/dist/css/bootstrap.min.css"
-
 const Posts = ({ posts, loading }) => {
   if (loading) {
     return <h1>Loading...</h1>

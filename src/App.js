@@ -36,6 +36,7 @@ const App = () => {
       <Pagination
         postsPerPage={postsPerPage}
         totalPosts={posts.length}
+        currentPage={currentPage}
         paginate={paginate}
       />
     </div>

@@ -1,18 +1,18 @@
-import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/css/bootstrap.min.css"
 
 const Posts = ({ posts, loading }) => {
   if (loading) {
-    return <h1>Loading...</h1>;
+    return <h1>Loading...</h1>
   }
   return (
     <ul className="list-group mb-4">
       {posts.map((post) => (
         <li key={post.id} className="list-group-item">
-          {post.title}
+          {post.id}. {post.title}
         </li>
       ))}
     </ul>
-  );
-};
+  )
+}
 
-export default Posts;
+export default Posts
